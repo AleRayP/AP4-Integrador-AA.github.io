@@ -1,0 +1,173 @@
+<!DOCTYPE html">
+<html lang="es">
+ <head>
+	<title>CV</title>
+	<link rel="icon" type="image/x-icon" href="Imagenes/favicon1.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Styles/proyecto_final.css" />
+	
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!--Open Graph Data (ogp.me para mas informacion)-->
+	<meta property="og:title" content="CV"/>
+	<meta property="og:type" content="Documento"/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:description" content="Modelo de Curriculum Vitae generado con datos aleatorios."/>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+ <body>
+	<p id="overNav"></p>
+	<nav id="navPrincipal" class="navbar sticky">
+
+		<!-- LOGO -->
+		<div class="logo"><img id="img_thumbnail"  class="" alt="..."></div>
+
+		<!-- NAVIGATION MENU -->
+		<ul class="nav-links">
+
+			<!-- USING CHECKBOX HACK -->
+			<input type="checkbox" id="checkbox_toggle" />
+		
+			<label for="checkbox_toggle" class="hamburger"><i class="fa fa-bars"></i></label>
+
+			<!-- NAVIGATION MENUS -->
+			<div id="scrollMenu"class="menu align-self-center">
+
+				<li><a href="#perfil"><i class="fa-regular fa-user"></i> Perfil</a></li>
+				<li><a href="#educacion"><i class="fa-solid fa-user-graduate"></i> Educacion</a></li>
+				<li><a href="#experiencia"><i class="fa-regular fa-folder-open"></i></i> Experiencia</a></li>
+				<li><a href="#habilidades"><i class="fa-solid fa-folder-tree"></i></i> Habilidades</a></li>
+			
+			</div>
+		</ul>
+	</nav>
+	
+	<a href="#overNav" class="btn-flotante "><img src="Imagenes/up2.png" width="35px"></a>
+	
+	<div id="top" class="container"><br><br>
+		<div id="container_1"  class = "row text-center aligh-content-lg-evenly">
+			<section id="menu" class="container-lg col-lg-3 align-self-center justify-content-center">
+				<div class="aligh-content-center">
+					<img id="img_portrait" alt=" Cargando Imagen"><br><br>
+				</div>
+			
+				<p class="h2 cont">Datos de contacto:</p>
+			
+				<div style="display:none">
+					<span id="email"></span>
+					<span id="telefono"></span>
+					<span id="cell"></span>
+				</div>
+			
+				<span class="Cc" data-tooltip="Click para copiar">
+					<i class="fa-regular fa-clipboard"></i>
+				</span>
+				<button id="em" class="Contt" data-tooltip="Cargando datos...">
+					<i class="btn btn-success fa-solid fa-envelope"></i>
+				</button>
+				<button id="tf" class="Contt" data-tooltip="Cargando datos...">
+					<i class="btn btn-success fa-solid fa-phone"></i>
+				</button>
+				<button id="tm" class="Contt" data-tooltip="Cargando datos...">
+					<i class="btn btn-success fa-solid fa-mobile-screen-button"></i>
+				</button><br><br>
+			</section><br>
+		
+			<section id="datos" class="container-lg col-lg-7 text-start align-self-center"><br><br>
+				<span id="nombre" class="h1"></span><br><br>
+				<span class="h5">Edad: </span>
+					<span id="edad"></span><br>
+				<span class="h5">Residencia: </span>
+					<span id="residencia"></span><br><br>
+			</section>
+		</div>
+	</div><br>
+	<div id="perfil" class="container" id="perfil">
+		<p class="h2">Perfil</p>
+			Lorem ipsum dolor sit amet consectetur adipiscing elit, nisl etiam feugiat quis vel viverra cras proin, at sed quisque suspendisse justo eu. Posuere ante orci bibendum integer ligula suspendisse class velit hendrerit, himenaeos risus senectus metus nullam magnis aptent a lobortis vestibulum, nostra aliquet et potenti litora in tristique dui. Id lectus nostra ac sollicitudin eu elementum tortor blandit risus molestie interdum euismod, facilisi arcu condimentum hendrerit dui et iaculis commodo consequat posuere per. Pharetra id porta erat auctor nascetur sed eros luctus.<br>
+	</div><br>
+	<div class="container">
+		<div id="container_2" class = "row text-center align-self-center aligh-content-lg-evenly">
+			<section id="eduylogros" class="container-lg col-lg-5 align-self-center">
+				<ul id="educacion" class="text-start"><span class="text-start h2">Educacion</span><br><br>
+					<li class="h5">Lorem ipsum dolor sit amet, consectetur adipiscing.</li>
+						<span>Lorem ipsum dolor sit amet consectetur, adipiscing elit proin nullam.</span><br><br>
+					<li class="h5">Nisl montes nostra sapien taciti, faucibus quam facilisi.</li>
+						<span>In habitasse tempor sem felis blandit fringilla pulvinar viverra, facilisi himenaeos nullam magnis.</span><br><br>
+				</ul>
+				<ul class="text-start"><span class="text-start h2">Premios y logros</span><br><br>
+					<li class="h5">Platea ut quisque pulvinar erat nam, rhoncus mattis eu.</li>
+						<span>Turpis donec per eleifend risus viverra litora dapibus.</span><br><br>
+					<li class="h5">Orci et tincidunt sagittis fusce, in pulvinar mi.</li>
+						<span>Egestas natoque massa aenean condimentum fusce eu rutrum sagittis proin.</span><br><br>
+					<li class="h5">Felis sociis rhoncus elementum, vulputate sagittis, ornare accumsan.</li>
+						<span>Ac potenti fusce neque torquent quam, morbi mus nibh.</span><br><br>
+				</ul>
+			</section>
+		
+			<section class="container-lg col-lg-7 align-self-center">
+				<ul id="experiencia" class="text-start"><span class="text-start h2">Experiencia</span><br><br>
+					<li class="h5">Lorem ipsum dolor sit amet consectetur, adipiscing elit rhoncus.</li>
+						<span>Lorem ipsum dolor sit amet consectetur, adipiscing elit ultricies tortor.</span><br><br>
+					<li class="h5">Phasellus magnis elementum eleifend quisque lacus, libero semper curae.</li>
+						<span>Sem et ornare vivamus enim, fusce quisque pulvinar.</span><br><br>
+					<li class="h5">Molestie ante urna tempor nullam risus, ultricies congue imperdiet.</li>
+						<span>Primis laoreet phasellus ultricies, fringilla eu nostra leo, velit commodo.</span><br><br>
+					<li class="h5">Molestie nascetur fames a nullam, pharetra sociosqu pulvinar.</li>
+						<span>Parturient erat felis sociis consequat metus, non nibh taciti quisque.</span><br><br>
+					<li class="h5">Urna vulputate suspendisse luctus a penatibus, varius nascetur sapien potenti.</li>
+						<span>Malesuada cursus netus congue mi quisque, curabitur iaculis at.</span><br><br>
+					<li class="h5">Taciti rhoncus natoque viverra arcu integer, platea ultrices magnis.</li>
+						<span>Tempus tempor magna cubilia cum diam, fusce fames porta.</span><br><br>
+					<li class="h5">Pulvinar nunc ornare placerat euismod, etiam urna.</li>
+						<span>Tristique ridiculus sagittis fusce sodales, vehicula sapien.</span><br><br>
+				</ul>
+			</section>
+		</div>
+	</div><br>
+	
+	<div id="habilidades" class="container text-start aligh-content-evenly">
+		<span class="text-start h2">Habilidades</span><br><br>
+		<section class=" container-lg row align-self-center">
+			<section class="container-lg col-lg-3 align-self-start">
+				<section class="hab_item">
+					<span class="h5"><i class="fa-solid fa-person-chalkboard"></i> Comunicación efectiva: </span>
+					<p class="text">Capaz de comunicarse de manera clara y concisa en diferentes situaciones y con diferentes audiencias.</p>
+				</section>
+			</section>
+			<section class="container-lg col-lg-3 align-self-start">
+				<section class="hab_item">
+					<span class="h5"><i class="fa-solid fa-pen"></i></i> Liderazgo: </span>
+					<p class="text">Capaz de dirigir y motivar a un equipo para alcanzar objetivos comunes.</p>
+				</section>
+			</section>
+			<section class="container-lg col-lg-3 align-self-start">
+				<section class="hab_item">
+					<span class="h5"><i class="fa-solid fa-wrench"></i> Resolución de problemas: </span>
+					<p class="text">Capaz de identificar y resolver problemas de manera eficiente y creativa.</p>
+				</section>
+			</section>
+			<section class="container-lg col-lg-3 align-self-start">
+				<section class="hab_item">
+					<span class="h5"><i class="fa-solid fa-arrows-spin"></i> Flexibilidad/ adaptabilidad: </span>
+					<p class="text">Capaz de adaptarse rápidamente a los cambios y trabajar eficazmente en situaciones inciertas o cambiantes.</p>
+				
+				</section>
+			</section>
+		</section>
+	</div>
+	
+	<!-- Scripts -->
+	<script src="https://kit.fontawesome.com/bc54fc2e5f.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+	<script src="js/proyecto_final.js"></script>
+ </body>
+</html>
